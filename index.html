@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC TAC TOE GAME</title>
+</head>
+
+<body>
+    <h1 id="heading">TIC TAC TOE GAME</h1>
+    <h3 id="choice">Starting Turn For : ❌</h3>
+    <div id="parentDiv">
+        <div data-index="1" class="inputbox right-border bottom-border"></div>
+        <div data-index="2" class="inputbox right-border bottom-border"></div>
+        <div data-index="3" class="inputbox bottom-border"></div>
+        <div data-index="4" class="inputbox right-border bottom-border"></div>
+        <div data-index="5" class="inputbox right-border bottom-border"></div>
+        <div data-index="6" class="inputbox bottom-border"></div>
+        <div data-index="7" class="inputbox right-border "></div>
+        <div data-index="8" class="inputbox right-border "></div>
+        <div data-index="9" class="inputbox "></div>
+        <div id="strike" class="strike"></div>
+    </div>
+    <div id="resetBtnDiv">
+        <button id="reset" class="button"onclick=resetGame()>Reset</button>
+    </div>
+    <div id="gameOver-area" class="hidden">
+        <h2 id="gameOver-msg"></h2>
+        <button id="play-again" class="button">Play Again</button>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
+
