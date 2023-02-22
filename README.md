@@ -1,4 +1,6 @@
 # Tic-Tac-game
+![tic tac toe](https://user-images.githubusercontent.com/122368872/220533154-03d560ef-c98c-4556-a7be-3018347eb04e.png)
+
 Create Tic Tac game
 Create a simple Tic Tac Toe game using pure JavaScript.
 First create a basic structure for the game. First make sure to create a user interface. Let’s break it down into small pieces. So that it is easy to maintain for us.
